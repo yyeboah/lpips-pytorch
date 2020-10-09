@@ -10,8 +10,8 @@ def normalize_activation(x, eps=1e-10):
 
 def get_state_dict(net_type: str = 'alex', version: str = '0.1'):
     # build url
-    url = 'https://raw.githubusercontent.com/richzhang/PerceptualSimilarity/' \
-        + f'master/models/weights/v{version}/{net_type}.pth'
+    url = 'https://raw.githubusercontent.com/richzhang/PerceptualSimilarity/master/' \
+        + f'lpips/weights/v{version}/{net_type}.pth'
 
     # download
     old_state_dict = torch.hub.load_state_dict_from_url(
