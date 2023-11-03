@@ -2,7 +2,6 @@ from setuptools import setup
 
 setup(
     name='lpips_pytorch',
-    version='latest',
     description='LPIPS as a Package.',
     packages=['lpips_pytorch', 'lpips_pytorch.modules'],
     author='So Uchida',
